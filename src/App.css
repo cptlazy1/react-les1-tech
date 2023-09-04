@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.dash-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.dashboard-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 300px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 20px;
+}
+
+.box-1 {
+    background-color: lightgreen;
+    border: 3px solid green;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.box-2 {
+    background-color: lightblue;
+    border: 3px solid blue;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.box-3 {
+    background-color: pink;
+    border: 3px solid red;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.units {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+h3 {
+    padding-top: 50px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.display-box-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed black;
+    background: lightgray;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    margin: -10px;
+}
+.options-container {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    /*justify-content: flex-start;*/
+    align-content: flex-start;
+    /*padding: 20px;*/
+    align-items: baseline;
+
+}
+
+.options {
+    padding-right: 10px;
+}
+
+.options-image {
+    max-width: 20px;
+    padding-right: 5px;
+}
+
+.tv-image {
+    max-width: 200px;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 10px;
+}
+

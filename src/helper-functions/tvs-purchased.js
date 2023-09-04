@@ -1,11 +1,12 @@
 import {inventory} from "../constants/inventory.js";
 
-let purchasedTvs = 0
+
 export function purchasedUnits() {
+    let purchasedTvs = 0;
     inventory.filter((totalTvsInStock) => {
-            purchasedTvs = purchasedTvs + totalTvsInStock.originalStock
+            purchasedTvs += totalTvsInStock.originalStock
         }
     );
     return purchasedTvs;
 }
-export let totalPurchasedUnits = purchasedUnits();
+export default purchasedUnits;
