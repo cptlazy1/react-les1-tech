@@ -23,7 +23,7 @@ function App() {
                         <h3>TV's Sold</h3>
                         <h2 className="units">{soldTvs()}</h2>
                     </article>
-                    <article className="box-3 dashboard-item">
+                    <article className="dashboard-item box-3">
                         <h3>TV's in stock</h3>
                         <h2 className="units">{calculateTvsInStock()}</h2>
                     </article>

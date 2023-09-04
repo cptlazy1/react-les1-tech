@@ -60,12 +60,9 @@
 .units {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 48px;
     font-weight: bold;
-    color: #333;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    color: black;
 }
 
 h3 {
@@ -95,11 +92,9 @@ h4 {
 }
 .options-container {
     display: flex;
-    /*flex-direction: row-reverse;*/
-    /*justify-content: flex-start;*/
     align-content: flex-start;
-    /*padding: 20px;*/
     align-items: baseline;
+    flex-wrap: wrap;
 
 }
 
